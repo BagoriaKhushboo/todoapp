@@ -1,0 +1,75 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.main-container-in{
+    text-align: center;
+}
+figcaption{
+    margin-top: 20px;
+    color: rgb(31, 117, 223);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+img{
+    width: 100px;
+    height: 70px;
+}
+.checkbtn{
+    margin-top: 20px;
+}
+.checkbtn button:hover{
+    background-color: rgb(238, 185, 99);
+    color: rgb(32, 135, 237);;
+}
+.checkbtn button{
+    background-color: rgb(32, 135, 237);
+    color: white;
+    font-family: sans-serif;
+}
+.addItems input{
+    width: 300px;
+    font-size: 13px;
+    padding: 5px;
+    
+}
+.addItems:hover .item{
+background-color: white;
+color: gray;
+}
+.addItems:hover .danger{
+    color: red;
+}
+.addItems:hover .success{
+    color: lightgreen   ;
+}
+.addItems{
+    position: relative;
+}
+.plus{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+.addItems h3{
+    margin-bottom: 0;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.addItems .item{
+    justify-content: space-between;
+    display: flex;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #141619;
+    align-items: center;
+    margin-top: 20px;
+    background: #f2a23b;
+    color: white;
+}
+.mr{
+    margin-right: 14px;
+}
